@@ -1,0 +1,72 @@
+{
+  "id": "1516376",
+  "name": "readnoval",
+  "font_family": "iconfont",
+  "css_prefix_text": "my-icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3785781",
+      "name": "大吊灯",
+      "font_class": "writer",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "5800114",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "6235314",
+      "name": "人民币钱",
+      "font_class": "money",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "8776823",
+      "name": "cart",
+      "font_class": "cart",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "8776842",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "8777166",
+      "name": "email",
+      "font_class": "email",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "8777250",
+      "name": "user",
+      "font_class": "user1",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "8777388",
+      "name": "check",
+      "font_class": "checked",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "10809862",
+      "name": "书 阅读",
+      "font_class": "book",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    }
+  ]
+}
