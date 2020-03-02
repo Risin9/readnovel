@@ -3605,6 +3605,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   computed: {
@@ -3679,25 +3681,71 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
-      tableData: [{
-        date: '2016-05-02',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1518 弄'
+      bookInfo: [{
+        bookId: '1',
+        bookName: '帝妃凰图1',
+        bookImg: '/public/image/90.jpg',
+        bookSummary: '南姒是个让人又爱又恨的人，被皇上宠得无法无天。堂堂男儿仗着一张祸国殃民的脸去当祸水，\
+            让皇上陷入魔障似的空置六宫，简直孰不可忍！云雨之后，吃饱餍足的帝王温软慵懒开口：“南姒，做朕的皇后。\
+            ”南姒单膝跪地，声线清冷：“皇上是天上云，臣是地下泥，尘泥登不上九霄。”帝王好心情顷刻间烟消云散：“……”被群臣劝谏选秀时，\
+            帝王软声相商：“南姒，做朕的皇后。”南姒不为所动：“皇上是天上云，臣是地下泥，尘泥登不上九霄',
+        bookAuthor: 'Risin9',
+        bookTag: '古代言情'
       }, {
-        date: '2016-05-04',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1517 弄'
+        bookId: '2',
+        bookName: '帝妃凰图2',
+        bookImg: '/public/image/90.jpg',
+        bookSummary: '南姒是个让人又爱又恨的人，被皇上宠得无法无天。堂堂男儿仗着一张祸国殃民的脸去当祸水，\
+            让皇上陷入魔障似的空置六宫，简直孰不可忍！云雨之后，吃饱餍足的帝王温软慵懒开口：“南姒，做朕的皇后。\
+            ”南姒单膝跪地，声线清冷：“皇上是天上云，臣是地下泥，尘泥登不上九霄。”帝王好心情顷刻间烟消云散：“……”被群臣劝谏选秀时，\
+            帝王软声相商：“南姒，做朕的皇后。”南姒不为所动：“皇上是天上云，臣是地下泥，尘泥登不上九霄',
+        bookAuthor: 'Risin9',
+        bookTag: '古代言情'
       }, {
-        date: '2016-05-01',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1519 弄'
+        bookId: '3',
+        bookName: '帝妃凰图3',
+        bookImg: '/public/image/90.jpg',
+        bookSummary: '南姒是个让人又爱又恨的人，被皇上宠得无法无天。堂堂男儿仗着一张祸国殃民的脸去当祸水，\
+            让皇上陷入魔障似的空置六宫，简直孰不可忍！云雨之后，吃饱餍足的帝王温软慵懒开口：“南姒，做朕的皇后。\
+            ”南姒单膝跪地，声线清冷：“皇上是天上云，臣是地下泥，尘泥登不上九霄。”帝王好心情顷刻间烟消云散：“……”被群臣劝谏选秀时，\
+            帝王软声相商：“南姒，做朕的皇后。”南姒不为所动：“皇上是天上云，臣是地下泥，尘泥登不上九霄',
+        bookAuthor: 'Risin9',
+        bookTag: '古代言情'
       }, {
-        date: '2016-05-03',
-        name: '王小虎',
-        address: '上海市普陀区金沙江路 1516 弄'
+        bookId: '4',
+        bookName: '帝妃凰图4',
+        bookImg: '/public/image/90.jpg',
+        bookSummary: '南姒是个让人又爱又恨的人，被皇上宠得无法无天。堂堂男儿仗着一张祸国殃民的脸去当祸水，\
+            让皇上陷入魔障似的空置六宫，简直孰不可忍！云雨之后，吃饱餍足的帝王温软慵懒开口：“南姒，做朕的皇后。\
+            ”南姒单膝跪地，声线清冷：“皇上是天上云，臣是地下泥，尘泥登不上九霄。”帝王好心情顷刻间烟消云散：“……”被群臣劝谏选秀时，\
+            帝王软声相商：“南姒，做朕的皇后。”南姒不为所动：“皇上是天上云，臣是地下泥，尘泥登不上九霄',
+        bookAuthor: 'Risin9',
+        bookTag: '古代言情'
+      }, {
+        bookId: '5',
+        bookName: '帝妃凰图5',
+        bookImg: '/public/image/90.jpg',
+        bookSummary: '南姒是个让人又爱又恨的人，被皇上宠得无法无天。堂堂男儿仗着一张祸国殃民的脸去当祸水，\
+            让皇上陷入魔障似的空置六宫，简直孰不可忍！云雨之后，吃饱餍足的帝王温软慵懒开口：“南姒，做朕的皇后。\
+            ”南姒单膝跪地，声线清冷：“皇上是天上云，臣是地下泥，尘泥登不上九霄。”帝王好心情顷刻间烟消云散：“……”被群臣劝谏选秀时，\
+            帝王软声相商：“南姒，做朕的皇后。”南姒不为所动：“皇上是天上云，臣是地下泥，尘泥登不上九霄',
+        bookAuthor: 'Risin9',
+        bookTag: '古代言情'
       }]
     };
   }
@@ -10252,7 +10300,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.bg-purple {\n  background: #d3dce6;\n}\n.el-main {\n  /* background-color: #E9EEF3; */\n  /* color: #333; */\n  text-align: center;\n  height: auto;\n}\n.grid-content {\n  border-radius: 4px;\n  min-height: 85px;\n}\n.el-carousel__item {\n  background-color: red;\n}\n", ""]);
+exports.push([module.i, "\n.bg-purple {\n  background: #d3dce6;\n}\n.el-main {\n  /* background-color: #E9EEF3; */\n  /* color: #333; */\n  text-align: center;\n  height: auto;\n}\n.grid-content {\n  border-radius: 4px;\n  min-height: 85px;\n}\n.el-carousel__item {\n  background-color: red;\n}\n.left-wrap {\n  width:655px;\n  float:left;\n}\n.right-wrap {\n  width:205px;\n  float:right;\n} \n/* .focus-slider-wrap {\n  width:70%;\n  float:left;\n} */\n.focus-notice-wrap{\n  width:205px;\n  float:right\n}\n", ""]);
 
 // exports
 
@@ -10271,7 +10319,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.grid-content {\n  border-radius: 4px;\n  min-height: 85px;\n  /* background-color: red; */\n}\n", ""]);
+exports.push([module.i, "\n.grid-content {\n    border-radius: 4px;\n    min-height: 85px;\n    /* background-color: red; */\n}\n.left-wrap {\n    width:675px;\n    float:left;\n}\n.right-wrap {\n    width:30%;\n    float:right\n}\nh3 {\n    font: 700 20px/1 PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;\n    text-align:left;\n    margin:0;\n    padding:0;\n}\n.left-wrap h3 {\n    font: 700 20px/1 PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;\n    padding-bottom: 12px;\n    border-bottom: 1px solid #1a1a1a;\n}\nli, ol, ul {\n  list-style: none outside none;\n  text-align: left;\n  margin-top: -4px;\n}\n.type-new-list li {\n    float: left;\n    width: 225px;\n    margin-right: 20px;\n    padding: 23px 0;\n    margin-left: -40px;\n}\n.book-img {\n  width: 72px;\n  height: 96px;\n  margin-right: 12px;\n  border: 1px solid #e6e6e6;\n  float: left;\n}\n.type-new-list li .book-info {\n  width: 130px;\n  float: left;\n}\n.type-new-list li .book-info p{\n  word-wrap: break-word;\n  word-break: break-all;\n  font: 12px/20px PingFangSC-Regular,'-apple-system',Simsun;\n  overflow: hidden;\n  height: 40px;\n  margin-bottom: 10px;\n  color: #666;\n}\n.type-new-list li .book-info h4 {\n\toverflow: hidden;\n\theight: 21px;\n\tmargin-top: -3px;\n\tmargin-bottom: 8px;\n}\nh4 a{\n  text-decoration: none;\n  color: #262626;\n  outline: 0;\n}\n", ""]);
 
 // exports
 
@@ -99529,49 +99577,47 @@ var render = function() {
               ]),
               _vm._v(" "),
               _c("el-col", { attrs: { span: 16 } }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "inline-block",
-                    staticStyle: { width: "70%", float: "left" }
-                  },
-                  [
-                    _c(
-                      "el-carousel",
-                      { attrs: { height: "150px", width: "300px;" } },
-                      _vm._l(4, function(item) {
-                        return _c("el-carousel-item", { key: item }, [
-                          _c("h3", { staticClass: "small" }, [
-                            _vm._v(_vm._s(item))
+                _c("div", { staticClass: "left-wrap" }, [
+                  _c(
+                    "div",
+                    { staticClass: "inline-block focus-slider-wrap" },
+                    [
+                      _c(
+                        "el-carousel",
+                        { attrs: { height: "150px", width: "300px;" } },
+                        _vm._l(4, function(item) {
+                          return _c("el-carousel-item", { key: item }, [
+                            _c("h3", { staticClass: "small" }, [
+                              _vm._v(_vm._s(item))
+                            ])
                           ])
-                        ])
-                      }),
-                      1
-                    )
-                  ],
-                  1
-                ),
+                        }),
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ]),
                 _vm._v(" "),
-                _c(
-                  "div",
-                  {
-                    staticClass: "inline-block",
-                    staticStyle: { width: "30%", float: "right" }
-                  },
-                  [
-                    _c(
-                      "el-table",
-                      { attrs: { data: _vm.tableData } },
-                      [
-                        _c("el-table-column", {
-                          attrs: { prop: "adData", label: "公告" }
-                        })
-                      ],
-                      1
-                    )
-                  ],
-                  1
-                )
+                _c("div", { staticClass: "right-wrap" }, [
+                  _c(
+                    "div",
+                    { staticClass: "inline-block focus-notice-wrap" },
+                    [
+                      _c(
+                        "el-table",
+                        { attrs: { data: _vm.tableData } },
+                        [
+                          _c("el-table-column", {
+                            attrs: { prop: "adData", label: "公告" }
+                          })
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  )
+                ])
               ]),
               _vm._v(" "),
               _c("el-col", { attrs: { span: 4 } }, [
@@ -99614,54 +99660,69 @@ var render = function() {
   return _c(
     "div",
     [
-      _c(
-        "el-main",
-        [
+      _c("el-main", [
+        _c(
+          "div",
+          { staticClass: "index-book-wrap type-new-list" },
+          [
+            _c(
+              "el-row",
+              [
+                _c("el-col", { attrs: { span: 4 } }, [
+                  _c("div", { staticClass: "grid-content" })
+                ]),
+                _vm._v(" "),
+                _c("el-col", { attrs: { span: 16 } }, [
+                  _c("div", { staticClass: "left-wrap" }, [
+                    _c("h3", [_vm._v("热门推荐")]),
+                    _vm._v(" "),
+                    _c("div"),
+                    _vm._v(" "),
+                    _c(
+                      "ul",
+                      _vm._l(_vm.bookInfo, function(book) {
+                        return _c("li", { key: book.bookId }, [
+                          _c("div", { staticClass: "book-img" }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "book-info" }, [
+                            _c("h4", [
+                              _c(
+                                "a",
+                                { attrs: { href: "", target: "_blank" } },
+                                [_vm._v(_vm._s(book.bookName))]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("p", [_vm._v(_vm._s(book.bookSummary))]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "boox-tag" })
+                          ])
+                        ])
+                      }),
+                      0
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("el-col", { attrs: { span: 4 } }, [
+                  _c("div", { staticClass: "grid-content" })
+                ])
+              ],
+              1
+            )
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "right-wrap" }, [
           _c(
-            "el-row",
-            [
-              _c("el-col", { attrs: { span: 4 } }, [
-                _c("div", { staticClass: "grid-content" })
-              ]),
-              _vm._v(" "),
-              _c(
-                "el-col",
-                { attrs: { span: 16 } },
-                [
-                  _c(
-                    "el-table",
-                    {
-                      staticStyle: { width: "100%" },
-                      attrs: { data: _vm.tableData }
-                    },
-                    [
-                      _c("el-table-column", {
-                        attrs: { prop: "date", label: "日期", width: "180" }
-                      }),
-                      _vm._v(" "),
-                      _c("el-table-column", {
-                        attrs: { prop: "name", label: "姓名", width: "180" }
-                      }),
-                      _vm._v(" "),
-                      _c("el-table-column", {
-                        attrs: { prop: "address", label: "地址" }
-                      })
-                    ],
-                    1
-                  )
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c("el-col", { attrs: { span: 4 } }, [
-                _c("div", { staticClass: "grid-content" })
-              ])
-            ],
+            "div",
+            { staticClass: "book-list-wrap" },
+            [_c("el-row", [_c("el-col")], 1)],
             1
           )
-        ],
-        1
-      )
+        ])
+      ])
     ],
     1
   )

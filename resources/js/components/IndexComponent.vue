@@ -4,19 +4,21 @@
     <el-row>
       <el-col :span="4"> <div class="grid-content"></div></el-col>
       <el-col :span="16">
-        <!-- <el-row class="top-header"> -->
-          <div class="inline-block" style="width:70%;float:left;">
-            <!-- <span class="demonstration">默认 Hover 指示器触发</span> -->
-            <el-carousel height="150px" width="300px;">
-              <el-carousel-item v-for="item in 4" :key="item">
-                <h3 class="small">{{ item }}</h3>
-              </el-carousel-item>
-            </el-carousel>
+        <div class="left-wrap">
+          <div class="inline-block focus-slider-wrap">
+                <el-carousel height="150px" width="300px;">
+                  <el-carousel-item v-for="item in 4" :key="item">
+                    <h3 class="small">{{ item }}</h3>
+                  </el-carousel-item>
+                </el-carousel>
           </div>
-        <div class="inline-block" style="width:30%;float:right">
-          <el-table :data="tableData">
-            <el-table-column prop="adData" label="公告"></el-table-column>
-          </el-table>
+        </div>
+        <div class="right-wrap">
+          <div class="inline-block focus-notice-wrap">
+            <el-table :data="tableData">
+              <el-table-column prop="adData" label="公告"></el-table-column>
+            </el-table>
+          </div>
         </div>
       </el-col>
       <el-col :span="4"><div class="grid-content"></div></el-col>
@@ -85,5 +87,22 @@ export default {
   }
   .el-carousel__item {
     background-color: red;
+  }
+  .left-wrap {
+    width:655px;
+    float:left;
+  }
+  .right-wrap {
+    width:205px;
+    float:right;
+  } 
+  /* .focus-slider-wrap {
+    width:70%;
+    float:left;
+  } */
+  
+  .focus-notice-wrap{
+    width:205px;
+    float:right
   }
 </style>
