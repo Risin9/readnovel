@@ -2,7 +2,6 @@
     <el-container direction="vertical">
         <layout-header></layout-header>
         <router-view></router-view>
-        <layout-footer></layout-footer>
     </el-container>
 </template>
 
@@ -12,6 +11,7 @@ export default {
         return {
             msg: '',
             searchData:''
+
         }
     }
 }

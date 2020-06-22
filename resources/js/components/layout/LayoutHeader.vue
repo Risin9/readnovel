@@ -12,7 +12,8 @@
                   </el-col>
                   
                   <el-col :span="8" class="grid-content">
-                    <el-input v-model="searchData" class="search-input" suffix-icon="my-icon-search"  placeholder="建设新时代"></el-input>
+                    <!-- <el-input v-model="searchData" class="search-input" suffix-icon="my-icon-search"  placeholder="建设新时代"></el-input> -->
+                    <el-input class="search-input" suffix-icon="my-icon-search"  placeholder="建设新时代"></el-input>
                   </el-col>
                   <el-col :span="8" class="grid-content">
                     <ul class="header-ul">
@@ -39,27 +40,13 @@
           <div class="top-nav-wrap">
             <div class="left-nav">
               <el-menu mode="horizontal">
-                <el-submenu  index="1">
+                <el-submenu  index="1-1">
                   <template slot="title">全部分类</template>
-                  <el-menu-item index="1-1">现代言情</el-menu-item>
-                  <el-menu-item index="1-2">古代言情</el-menu-item>
-                  <el-menu-item index="1-3">浪漫青春</el-menu-item>
-                  <el-menu-item index="1-4">玄幻言情</el-menu-item>
-                  <el-menu-item index="1-5">仙侠奇缘</el-menu-item>
-                  <el-menu-item index="1-6">悬疑</el-menu-item>
-                  <el-menu-item index="1-7">科幻空间</el-menu-item>
-                  <el-menu-item index="1-8">游戏竞技</el-menu-item>
-                  <el-menu-item index="1-9">短篇小说</el-menu-item>
-                  <el-menu-item index="1-10">轻小说</el-menu-item>
+                  <!-- 全部分类 -->
+                  <el-menu-item v-for="classify in bookClassify" :key="classify.index">{{classify.name}}</el-menu-item>
                 </el-submenu >
-                <el-menu-item index="2">排行榜</el-menu-item>
-                <el-menu-item index="3">免费</el-menu-item>
-                <el-menu-item index="4">完本</el-menu-item>
-                <el-menu-item index="5">现言青春</el-menu-item>
-                <el-menu-item index="6">古言玄幻</el-menu-item>
-                <el-menu-item index="7">神秘幻想</el-menu-item>
-               <!-- <el-menu-item index="8" class="right-nav" prefix-icon="my-icon-user">充值</el-menu-item>
-                <el-menu-item index="9" class="right-nav">作家专区</el-menu-item>-->
+                <el-menu-item v-for="classify in headerClassify" :key="classify.index">{{classify.name}}</el-menu-item>
+
               </el-menu> 
             </div>
             
@@ -79,13 +66,41 @@
 
 <script>
 export default {
-    data() {
-        return {
-            msg: 'I\'m the app.Vue',
-            searchData:''
+  name: 'html-header',
+  data() {
+      return {
+        // bookClassify:[
+        //   {index:'1-1',name:"现代言情12222"},
+        //   {index:'1-2',name:"古代言情2"},
+        //   {index:'1-3',name:"浪漫青春"},
+        //   {index:'1-4',name:"玄幻言情"},
+        //   {index:'1-5',name:"仙侠奇缘"},
+        //   {index:'1-6',name:"悬疑"},
+        //   {index:'1-7',name:"科幻空间"},
+        //   {index:'1-8',name:"游戏竞技"},
+        //   {index:'1-9',name:"短篇小说"},
+        //   {index:'1-10',name:"轻小说"},
+        // ],
+        bookClassify : [],
+        headerClassify:[
+          {index:'2-1',name:"排行榜1"},
+          {index:'2-2',name:"免费2"},
+          {index:'2-3',name:"完本"},
+          {index:'2-4',name:"现言青春"},
+          {index:'2-5',name:"神秘幻想"},
+        ]
 
-        }
+      }
+    },
+  methods:{
+    getBookClassify(){
+      axios.get('/index/bookClassifySys')
+        .then(response => {
+          console.log(response);
+            this.bookClassify = response;
+        });
     }
+  }
 }
 </script>
 

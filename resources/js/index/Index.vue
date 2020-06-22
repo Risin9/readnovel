@@ -29,11 +29,10 @@
     <recommend-Component></recommend-Component>
   </div>
 </div>
-  
-    
+
 </template>
 <script>
-import RecommendComponent from './RecommendComponent.vue'
+import RecommendComponent from './Recommend.vue'
 export default {
     computed: {
     username() {
@@ -46,7 +45,7 @@ export default {
     return {
       tableData:[
         {
-          adData:'[公告] 11111111111'
+          adData:'[公告] index'
         },
         {
           adData:'[公告] 2222222222222'
@@ -63,7 +62,8 @@ export default {
   methods: {
     goBack() {
       window.history.length > 1 ? this.$router.go(-1) : this.$router.push('/')
-    }
+    },
+
   },
   components: {
     RecommendComponent
@@ -95,12 +95,12 @@ export default {
   .right-wrap {
     width:205px;
     float:right;
-  } 
+  }
   /* .focus-slider-wrap {
     width:70%;
     float:left;
   } */
-  
+
   .focus-notice-wrap{
     width:205px;
     float:right
